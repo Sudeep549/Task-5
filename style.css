@@ -1,0 +1,73 @@
+.container {
+  border: 5px solid brown;
+  height: 120vh;
+  width: 60vh;
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 15px;
+  margin: 20px;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+}
+
+.box1 {
+  background-color: rgb(3, 3, 56);
+  height: 15vh;
+  width: 60vh;
+  color: white;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.box2 {
+  background-color: rgb(3, 3, 56);
+  height: 60vh;
+  width: 30vh;
+  color: white;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  /* grid-column-end: 5; */
+}
+
+.box3 {
+  background-color: rgb(3, 3, 56);
+  height: 25vh;
+  width: 25vh;
+  color: white;
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.box4 {
+  background-color: rgb(3, 3, 56);
+  height: 25vh;
+  width: 25vh;
+  color: white;
+  grid-column-start: 4;
+  grid-row-start: 3;
+  margin-top: 220px;
+  margin-left: -190px;
+}
+
+.box5 {
+  background-color: rgb(3, 3, 56);
+  height: 20vh;
+  width: 60vh;
+  color: white;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+}
+
+.box6 {
+  background-color: rgb(3, 3, 56);
+  height: 10vh;
+  width: 60vh;
+  color: white;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+}
